@@ -41,7 +41,6 @@ Take Screenshot In Custom Path With Specific Names
 
 Take Screenshot After Keyword Failure
     Register Keyword To Run On Failure             Capture Page Screenshot
-    Set Screenshot Directory                       target/errors
     Wait Until Page Contains Element               xpath: //h1[contains(text(),'Welcome to Squash TF components documentation!')]    30
     Click Link                                     xpath: //a[text()='Execution Server']
     Wait Until Page Contains Element               xpath: //h1[contains(text(),'Squash TF Execution Server')]    30
